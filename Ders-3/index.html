@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <style>
+        nav {
+            background-color: #9cb195;
+            color: #fff;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        nav ul li :hover {
+            color: rgb(56, 113, 120);
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+
+        #JaneScience {
+            background-color: red;
+        }
+
+        .paragraph {
+            color: red;
+            background-color: #9cb195;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    
+    <div>
+    <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <hr>
+
+    <div>
+        <h2>Student Grades</h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Math</th>
+                <th>Science</th>
+                <th>English</th>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>90</td>
+                <td>88</td>
+                <td>77</td>
+            </tr>
+            <tr>
+                <td>Jane</td>
+                <td>90</td>
+                <td id="JaneScience">77</td>
+                <td>77</td>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>66</td>
+                <td>88</td>
+                <td>77</td>
+            </tr>
+            <tr>
+                <td>Ali</td>
+                <td>90</td>
+                <td>88</td>
+                <td>77</td>
+            </tr>
+        </table>
+    </div>
+
+    <hr>
+
+    <div>    
+        <p>This is a <span class="paragraph">paragraph</span></p>
+    </div>
+
+</body>
+</html>
